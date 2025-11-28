@@ -3,7 +3,7 @@ class Restaurante:
 
     def __init__(self,nome,categoria):
         self._nome = nome.title()
-        self._categoria = categoria.upper()
+        self._categoria = categoria.title()
         self._ativo = False
         Restaurante.restaurantes.append(self)
 
